@@ -14,7 +14,9 @@ export default function App() {
     setLevel(level + 15);
     checkLevelAndZoom();
   };
-  const newImageUrl = 'https://assets.ch3plus.com/newsch/2024/09/928109319261.jpg'
+
+
+  const newImageUrl = 'https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/449851561_1608988589955434_399135967660478242_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=s7Q3dL_t2QkQ7kNvgEkE6dh&_nc_ht=scontent.fcnx4-1.fna&_nc_gid=ARMxCTn5qqcTnjETYIMkEIN&oh=00_AYA_bQ3X3g0bo6nwcPwB1_9sGucrIZqrDwzUJQCpQTJ8jg&oe=670AB601'
   function checkLevelAndZoom() {
     if (level == 30) {
       document.getElementById('hippo').style.width = '300px';
